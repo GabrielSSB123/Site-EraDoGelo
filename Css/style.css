@@ -1,0 +1,731 @@
+@font-face {
+    font-family: "Fonte-Architects";
+    src: url(../Fonte/ArchitectsDaughter.ttf);
+}
+
+* {
+    font-family: "Fonte-Architects";
+}
+
+body {
+    background-color: white;
+}
+
+p {
+    color: white;
+    font-size: 1rem;
+    text-align: justify;
+    padding: 1.2rem;
+    font-family: "Fonte-Architects";
+}
+
+h1 {
+    color: #008EE6;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Fonte-Architects";
+    margin-top: 0.7rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: 10rem;
+}
+
+#NavImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li,
+.DivPicoles {
+    width: 90%;
+    background-color: #008EE6;
+    border: black;
+    border-style: solid;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #008EE6;
+    border: black solid;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 1rem;
+}
+
+nav a img {
+    width: 10rem;
+    height: 9rem;
+}
+
+hr {
+    border-color: black;
+    background-color: black;
+}
+
+h3 {
+    text-align: center;
+    color: #008EE6;
+    font-size: 0.7rem;
+    font-family: "Fonte-Architects";
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+    font-family: "Fonte-Architects";
+
+}
+
+.AProduto {
+    display: inline-block;
+    color: white;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.RedeSocial {
+    height: 2rem;
+    width: 2.5rem;
+}
+
+.LiMenu {
+    background-color: white;
+    border: white;
+    border-radius: 0.6rem;
+    border-style: solid;
+    height: 1rem;
+    width: 7.6rem;
+}
+
+
+
+.HrMenor {
+    width: 20rem;
+    margin-bottom: 0.8rem;
+}
+
+.DivPicoles img {
+    width: 7rem;
+    height: 7rem;
+    display: inline;
+    margin-bottom: 0.8rem;
+}
+
+.DivPicoles h1 {
+    text-align: center;
+    color: white;
+    display: block;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.DivLinhaProduto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.DivPicoles button {
+    display: inline;
+    color: #008EE6;
+    background-color: white;
+    width: 7rem;
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+}
+
+.DivPicoles {
+    padding-top: 0.2rem;
+    width: 29%;
+    background-color: #008EE6;
+    border: black solid;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    height: 13rem;
+}
+
+.DivAçaiImg {
+    display: block;
+    width: 20rem;
+    border: black solid;
+    border-bottom: 0;
+    margin-top: 1rem;
+    background-color: #008EE6;
+}
+
+.DivAçai {
+    background-color: #008EE6;
+    width: 20rem;
+    height: 5rem;
+    display: flex;
+    border: black;
+    border-style: solid;
+    flex-direction: row;
+    border-top: 0;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.DivAçai button {
+    display: inline;
+    width: 8rem;
+    height: 2.7rem;
+    background-color: white;
+    color: #008EE6;
+    border: black solid 1px 1px 1px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.LiMenu a {
+    color: #008EE6;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: "Fonte-Architects";
+}
+
+.DivTexto div a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem;
+    display: inline;
+    margin-left: 0.7rem;
+    position: absolute;
+    margin-top: 0.4rem;
+}
+
+#MainPicole {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#DivSobre {
+    background-color: #008EE6;
+    border: black;
+    border-style: solid;
+    margin-bottom: 1.5rem;
+    border-left: 0;
+    border-right: 0;
+}
+
+#MainTrabalhe h4 {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    width: 90%;
+    text-align: left;
+    color: #008EE6;
+    font-weight: 400;
+}
+
+#Btn {
+    width: 7rem;
+    background-color: #008EE6;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 1.8rem;
+    box-shadow: 1px 2px 1px black;
+}
+
+#TextEmail,
+#TextTelefone {
+    width: 85%;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+    box-shadow: 2px 2px 2px;
+
+}
+
+#NavMenu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#MainTrabalhe ul {
+    list-style: circle;
+}
+
+#MainTrabalhe div div {
+    border: none;
+}
+
+#MainTrabalhe ul li {
+    background-color: white;
+    border: 0;
+    font-size: 0.8rem;
+    width: 13rem;
+    align-self: center;
+}
+
+#MainTrabalhe,
+#MainAçai,
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#MainTrabalhe h2,
+p,
+#MainPicole h2 {
+    color: black;
+}
+
+#MainTrabalhe div,
+#MainHome div,
+.DivTexto {
+    background-color: #008EE6;
+    border: black solid;
+    border-left: 0;
+    border-right: 0;
+    border-width: 2.4px;
+    margin-bottom: 0.8rem;
+    width: 100%;
+}
+
+#MainTrabalhe div h1,
+#MainHome div h1,
+#DivSobre h1,
+.DivTexto h1 {
+    color: white;
+    font-size: 1.8rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.4rem;
+}
+
+#DivSobre h1,
+#DivSobre p,
+#MainTrabalhe div p,
+.DivAçai h1,
+footer h3 {
+    color: white;
+}
+
+header div button,
+.Produtos,
+.ProdutosImg,
+.ProdutosNav,
+section,
+#MaisVendidosNav,
+#MaisVendidosH1,
+.MobileImg,
+.DivAnuncio {
+    display: none;
+}
+
+@media only screen and (min-width: 650px) {
+    header {
+        width: 100%;
+        margin-bottom: 1rem;
+        background-color: #008EE6;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: black solid;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+
+    }
+
+    header div {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 70%;
+    }
+
+    header div button a {
+        text-decoration: none;
+        color: #008EE6;
+
+    }
+
+    .DesktopImg {
+        display: none;
+    }
+
+    .MobileImg {
+        display: block;
+    }
+
+    header img {
+        width: 20rem;
+        height: 7.5rem;
+    }
+
+    header div button {
+        display: inline;
+        background-color: white;
+        color: #008EE6;
+        width: 6rem;
+        border: black solid;
+        border-radius: 0.5rem;
+        border-width: 0.15rem;
+    }
+
+    header div button a {
+        font-size: 1rem;
+    }
+
+    .BtnTrabalhe a {
+        font-size: 0.8rem;
+    }
+
+    .BtnTrabalhe {
+        width: 9rem;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    header {
+        width: 100%;
+        margin-bottom: 1rem;
+        background-color: #008EE6;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: black solid;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+
+    }
+
+    header div button a {
+        font-size: 1.1 rem;
+    }
+
+    .BtnTrabalhe a {
+        font-size: 1.1rem;
+    }
+
+    .BtnTrabalhe {
+        width: 12rem;
+    }
+
+    .DesktopImg {
+        display: none;
+    }
+
+    .MobileImg {
+        display: block;
+    }
+
+    #MainPicole .HrMenor,
+    #MainPicole hr {
+        display: none;
+    }
+
+    #MainPicole h2 {
+        background-color: #008EE6;
+        color: white;
+        border: black solid;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        width: 100%;
+    }
+
+    #MainPicole div h2 {
+        width: 100%;
+    }
+
+    header img {
+        width: 20rem;
+        height: 7.5rem;
+    }
+
+    header div button {
+        display: inline;
+        background-color: white;
+        color: #008EE6;
+        width: 12rem;
+        border: black solid;
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+        border-radius: 0.5rem;
+        border-width: 0.15rem;
+        font-size: 1.1rem;
+    }
+
+    .DivAnuncio {
+        margin-bottom: 30rem;
+        display: block;
+    }
+
+    #NavProduto ul li {
+        width: 15rem;
+        height: 12rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+
+    .AProduto {
+        color: #008EE6;
+        font-size: 2.3rem;
+    }
+
+    #NavProduto ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    #NavProduto {
+        position: relative;
+        bottom: 19rem;
+
+    }
+
+
+
+    #MainHome div h1 {
+        border: black solid;
+        border-width: 3px;
+        padding-top: 1rem;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        font-size: 3rem;
+        margin-top: -0.5rem;
+    }
+
+    #MainHome div {
+        height: 25rem;
+        border-width: 3px;
+    }
+
+    #MainPicole .DivTexto,
+    #MainAçai .DivTexto {
+        background-color: white;
+        border: none;
+    }
+
+    #MainPicole .DivTexto h1,
+    #MainAçai .DivTexto h1 {
+        font-size: 3rem;
+        color: #008EE6;
+    }
+
+    #MaisVendidosH1 {
+        display: block;
+        position: relative;
+        bottom: 14.5rem;
+        font-size: 3rem;
+        border: black solid;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+    }
+
+    #MaisVendidosNav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .ProdutosNav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .MaisVendidosImg {
+        display: inline-block;
+        width: 30%;
+        height: 1;
+        border: black solid;
+        border-bottom: 0;
+        margin-top: 1rem;
+        background-color: #008EE6;
+    }
+
+    .ProdutosImg {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .ProdutosImg div {
+        border: black solid;
+        width: 20%;
+
+    }
+
+    .MaisVendidos,
+    .Produtos {
+        background-color: #008EE6;
+        width: 30%;
+        height: 8rem;
+        display: flex;
+        border: black;
+        border-style: solid;
+        flex-direction: column;
+        border-top: 0;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .Produtos {
+        width: 20%;
+        margin-bottom: 1rem;
+    }
+
+    .DivTexto div a,
+    .DivPicoles,
+    .HrMenor {
+        display: none;
+    }
+
+
+    .MaisVendidos h1,
+    .Produtos h1 {
+        color: white;
+    }
+
+    section {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .MaisVendidos button,
+    .Produtos button {
+        display: inline;
+        width: 12rem;
+        height: 3rem;
+        background-color: white;
+        color: #008EE6;
+        border: black solid 1px 1px 1px;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    .MaisVendidos h1 {
+        font-size: 1.8rem;
+    }
+
+    .MaisVendidos a {
+        text-decoration: none;
+        color: #008EE6;
+    }
+
+    #MainTrabalhe h2 {
+        margin-top: 1rem;
+
+    }
+
+    header div button a {
+        text-decoration: none;
+        color: #008EE6;
+    }
+
+    #DivSobre {
+        margin-top: 10rem;
+        height: 20rem;
+    }
+
+    #DivSobre h1 {
+        font-size: 3rem;
+    }
+
+    #DivSobre p {
+        font-size: 1.2rem;
+        margin-left: 9rem;
+        margin-right: 9rem;
+        text-align: justify;
+
+    }
+
+    .DivAçaiImg img {
+        height: 20rem;
+    }
+
+    .DivAçaiImg {
+        width: 40%;
+    }
+
+    .DivAçai {
+        width: 40%;
+        height: 8rem;
+    }
+
+    .DivAçai button {
+        width: 45%;
+        height: 4rem;
+        font-size: 1.5rem;
+
+    }
+
+    .DivAçai h1 {
+        font-size: 3rem;
+    }
+
+
+    #TextEmail,
+    #TextTelefone {
+        width: 65%;
+    }
+
+    #MainAçai {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #MainTrabalhe div h1,
+    #MainTrabalhe div p {
+        width: 50%;
+    }
+
+    #MainTrabalhe {
+        margin-bottom: 5rem;
+        text-align: center;
+    }
+
+
+    #MainTrabalhe div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .LiMenu {
+        width: 15rem;
+    }
+}
